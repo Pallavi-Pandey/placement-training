@@ -1,0 +1,211 @@
+Order ID,Customer,Region,Product,Category,Qty,Unit Price,Discount %,Order Date,Sales Rep,Repeat Customer,Payment Mode,Order Status
+OD-2001,PRIYA NAIR,east,Conference Table,Furniture,2,18700,0,12-01-2026,Anita Rao,Yes,Credit,Delivered
+OD-2002,KARAN MALHOTRA,South,Standing Desk,Furniture,1,"9,600.00",0,16-01-2026,Ronit Sen,Yes,Card,Delivered
+OD-2003,Imran Sheikh,  North,Monitor Stand,Electronics,8,1450,10,24-01-2026,Sameer Joshi,Yes,UPI,Delivered
+OD-2004,SANJAY GUPTA,WEST,Wireless Mouse,Electronics,3,750,0,27/03/2026,Ronit Sen,No,UPI,Delivered
+OD-2005,Simran Kaur,North,Desk Lamp,Electronics,1,1050,0,2026/02/27,Fatima Sheikh,No,Credit,Delivered
+OD-2006,Vikram Singh,north,Wireless Mouse,Electronics,7,650,10,2026/03/12,Sameer Joshi,No,UPI,Cancelled
+OD-2007,neha sharma,west,Printer,Electronics,-2,Rs.7200,0,23-02-2026,Ronit Sen,No,Cash,Delivered
+OD-2008,Ayesha Khan,West ,Wireless Mouse,Electronics,1,750,10,13-02-2026,Anita Rao,Yes,Card,Delivered
+OD-2009,  Anjali Bose,North,Printer,Electronics,5,"7,300.00",5,04-03-2026,Fatima Sheikh,No,UPI,Delivered
+OD-2010,Neha Sharma, East,Standing Desk,Furniture,6,9400,10,08-02-2026,Anita Rao,No,UPI,Pending
+OD-2011,Tarun Bhatia,east,Standing Desk,Furniture,7,9700,0,04-01-2026,Deepak Nair,No,Card,Cancelled
+OD-2012,ayesha khan,EAST,Standing Desk,Furniture,6,9700,0,03-03-2026,Deepak Nair,Yes,Credit,Returned
+OD-2013,MANISH VERMA,South ,Ergonomic Footrest,Office Supplies,7,850,10,22-01-2026,Anita Rao,Yes,Credit,Returned
+OD-2014,MEERA PILLAI,WEST,Office Chair,Furniture,2,4300,0,25-01-2026,Sameer Joshi,Yes,Card,Delivered
+OD-2015,VIKRAM SINGH,EAST,Ergonomic Footrest,Office Supplies,6,1150,5,6 Mar 2026,Sameer Joshi,Yes,Card,Delivered
+OD-2015,VIKRAM SINGH,EAST,Ergonomic Footrest,Office Supplies,6,1150,5,6 Mar 2026,Sameer Joshi,Yes,Card,Delivered
+OD-2016,Anjali Bose,south,Conference Table,Furniture,1,18700,0,14-01-2026,Anita Rao,Yes,UPI,Delivered
+OD-2017,Anjali Bose,North,Bookshelf,Furniture,4,5600,10,06-03-2026,Kiran Patel,No,Card,Returned
+OD-2018,imran sheikh,West ,Desk Lamp,Electronics,4,850,0,24-03-2026,Sameer Joshi,No,Credit,Delivered
+OD-2019,kavita joshi,west,Wireless Mouse,Electronics,7,₹ 650,5,,Ronit Sen,No,Cash,Delivered
+OD-2020,Kavita Joshi,North,Desk Lamp,Electronics,,850,5,17-01-2026,Kiran Patel,No,Card,Delivered
+OD-2021,naveen pillai,East,Desk Lamp,Electronics,5,₹ 850,0,29/01/2026,Anita Rao,No,UPI,Delivered
+OD-2022,Kavita Joshi,South,Whiteboard,Office Supplies,5,1100,10,09-03-2026,Deepak Nair,No,Card,Delivered
+OD-2022,kavita joshi,South,Whiteboard,Office Supplies,5,1100,10,09-03-2026,Deepak Nair,No,Card,Delivered
+OD-2023,Meera Pillai,North,Conference Table,Furniture,8,18600,0,11-03-2026,Fatima Sheikh,No,Card,Delivered
+OD-2024,Priya Nair,South ,Office Chair,Furniture,2,4300,10,11-01-2026,Fatima Sheikh,No,Card,Cancelled
+OD-2025,  Rohan Kapoor,SOUTH,Monitor Stand,Electronics,6,1450,5,,Fatima Sheikh,Yes,UPI,Delivered
+OD-2026,SANJAY GUPTA,North,Bookshelf,Furniture,1,"₹ 5,400",0,09-03-2026,Sameer Joshi,No,Credit,Delivered
+OD-2027,Naveen Pillai,South,Printer,Electronics,7,7200,0,06-03-2026,Anita Rao,Yes,Cash,Delivered
+OD-2028,MEERA PILLAI,North ,Office Chair,Furniture,,4100,5,06-03-2026,Anita Rao,Yes,UPI,Returned
+OD-2029,Aditya Rao,south,Wireless Mouse,Electronics,2,550,0,24 Mar 2026,Ronit Sen,Yes,UPI,Cancelled
+OD-2030,simran kaur,South,Printer,Electronics,2,7200,10,06-02-2026,Fatima Sheikh,Yes,Card,Delivered
+OD-2031,Farhan Ali,NORTH,Mechanical Keyboard,Electronics,5,"₹ 2,100",0,12 Jan 2026,Ronit Sen,No,Card,Delivered
+OD-2032,  Simran Kaur,NORTH,Whiteboard,Office Supplies,1,1200,0,19-01-2026,Fatima Sheikh,No,UPI,Delivered
+OD-2033,Arjun Reddy,West,Ergonomic Footrest,Office Supplies,5,1050,0,17/03/2026,Fatima Sheikh,No,UPI,Delivered
+OD-2034,Pooja Desai,south,Standing Desk,Furniture,6,9400,0,22-03-2026,Ronit Sen,Yes,Cash,Pending
+OD-2035,MEERA PILLAI,SOUTH,Mechanical Keyboard,Electronics,7,2100,0,31-01-2026,Ronit Sen,No,Card,Cancelled
+OD-2036,Manish Verma,west,Mechanical Keyboard,Electronics,7,2000,0,13/03/2026,Sameer Joshi,No,Card,Pending
+OD-2036,Manish Verma,west,Mechanical Keyboard,Electronics,7,2000,0,13/03/2026,Sameer Joshi,No,Card,Pending
+OD-2037,farhan ali,West ,Filing Cabinet,Furniture,6,3400,0,17-01-2026,Ronit Sen,Yes,UPI,Pending
+OD-2038,RAHUL MEHTA,West ,Wireless Mouse,Electronics,8,550,0,09-03-2026,Fatima Sheikh,Yes,Card,Delivered
+OD-2039,TARUN BHATIA,North ,Whiteboard,Office Supplies,,1100,0,2026/03/22,Kiran Patel,No,Cash,Delivered
+OD-2040,ANJALI BOSE,South ,Conference Table,Furniture,5,18500,0,01-02-2026,Sameer Joshi,Yes,Credit,Cancelled
+OD-2041,Ritika Chawla  ,South ,Filing Cabinet,Furniture,4,3200,5,31-03-2026,Fatima Sheikh,No,Card,Delivered
+OD-2042,  Arjun Reddy,north,Standing Desk,Furniture,4,"₹ 9,500",5,21-03-2026,Sameer Joshi,Yes,Credit,Pending
+OD-2043,Rahul Mehta,South ,Whiteboard,Office Supplies,7,1200,0,10-02-2026,Anita Rao,Yes,Card,Delivered
+OD-2044,  Shalini Rao,West,Monitor Stand,Electronics,6,1350,5,14-02-2026,Anita Rao,Yes,UPI,Returned
+OD-2045,simran kaur,West,Conference Table,Furniture,8,Rs.18600,0,2026/02/22,Kiran Patel,No,Credit,Delivered
+OD-2046,Sanjay Gupta,NORTH,Monitor Stand,Electronics,6,Rs.1650,0,30-03-2026,Deepak Nair,No,Cash,Delivered
+OD-2047,Pooja Desai,West ,Whiteboard,Office Supplies,8,1100,5,20-01-2026,Deepak Nair,No,UPI,Returned
+OD-2048,Kavita Joshi  ,South ,Printer,Electronics,1,7200,0,14-01-2026,Deepak Nair,Yes,Cash,Delivered
+OD-2049,Pooja Desai  ,west,Printer,Electronics,4,7100,0,07-02-2026,Ronit Sen,No,UPI,Cancelled
+OD-2050,Sneha Iyer,south,Bookshelf,Furniture,4,5400,0,30-01-2026,Anita Rao,No,Cash,Delivered
+OD-2051,sneha iyer,WEST,Office Chair,Furniture,4,4200,10,17-02-2026,Sameer Joshi,No,UPI,Returned
+OD-2052,divya menon,  North,Monitor Stand,Electronics,6,Rs.1450,5,25-03-2026,Anita Rao,No,UPI,Delivered
+OD-2053,Sanjay Gupta  ,North ,Wireless Mouse,Electronics,3,650,5,04-02-2026,Deepak Nair,No,Cash,Delivered
+OD-2054,Tarun Bhatia,,Monitor Stand,Electronics,4,1350,10,21-01-2026,Anita Rao,No,UPI,Delivered
+OD-2055,KARAN MALHOTRA,  North,Bookshelf,Furniture,6,5400,5,8 Mar 2026,Anita Rao,Yes,Credit,Returned
+OD-2056,Priya Nair,SOUTH,Mechanical Keyboard,Electronics,6,"₹ 2,200",10,21-03-2026,Sameer Joshi,Yes,Credit,Delivered
+OD-2057,farhan ali,south,Monitor Stand,Electronics,2,Rs.1450,0,13-03-2026,Kiran Patel,Yes,Cash,Delivered
+OD-2058,Kavita Joshi  , East,Printer,Electronics,6,Rs.7100,0,04-03-2026,Fatima Sheikh,No,Credit,Delivered
+OD-2059,Aditya Rao,WEST,Printer,Electronics,0,7200,0,07/03/2026,Ronit Sen,No,Cash,Returned
+OD-2060,simran kaur,north,Whiteboard,Office Supplies,4,1100,0,2026/03/20,Fatima Sheikh,Yes,Credit,Delivered
+OD-2061,arjun reddy,SOUTH,Whiteboard,Office Supplies,5,1100,0,03/02/2026,Ronit Sen,Yes,Credit,Delivered
+OD-2062,Ritika Chawla,NORTH,Ergonomic Footrest,Office Supplies,6,"1,150.00",0,12-02-2026,Fatima Sheikh,Yes,Cash,Delivered
+OD-2063,KAVITA JOSHI,East,Bookshelf,Furniture,7,"5,300.00",0,30-01-2026,Anita Rao,Yes,Cash,Delivered
+OD-2064,Sneha Iyer,east,Standing Desk,Furniture,6,Rs.9500,0,01-02-2026,Fatima Sheikh,Yes,Card,Returned
+OD-2065,Meera Pillai,East,Bookshelf,Furniture,8,5500,5,01/01/2026,Ronit Sen,Yes,Card,Delivered
+OD-2066,Imran Sheikh,North,Whiteboard,Office Supplies,7,1300,0,23-02-2026,Sameer Joshi,No,UPI,Cancelled
+OD-2067,Pooja Desai,West,Mechanical Keyboard,Electronics,2,2100,0,2026/02/03,Anita Rao,Yes,UPI,Cancelled
+OD-2068,ARJUN REDDY,WEST,Conference Table,Furniture,1,18500,10,11 Feb 2026,Fatima Sheikh,No,Card,Delivered
+OD-2069,NAVEEN PILLAI,West ,Office Chair,Furniture,7,4200,0,20-02-2026,Anita Rao,Yes,Cash,Delivered
+OD-2070,NAVEEN PILLAI,SOUTH,Office Chair,Furniture,3,4100,10,09-01-2026,Deepak Nair,Yes,Cash,Pending
+OD-2071,ARJUN REDDY,West,Office Chair,Furniture,2,4200,0,17/01/2026,Kiran Patel,Yes,UPI,Delivered
+OD-2071,arjun reddy,West,Office Chair,Furniture,2,4200,0,17/01/2026,Kiran Patel,Yes,UPI,Delivered
+OD-2072,Divya Menon,East,Bookshelf,Furniture,8,5300,5,04-01-2026,Anita Rao,No,Cash,Delivered
+OD-2073,Neha Sharma  ,  North,Conference Table,Furniture,4,Rs.18400,5,04/03/2026,Kiran Patel,Yes,UPI,Returned
+OD-2074,naveen pillai,SOUTH,Whiteboard,Office Supplies,2,1200,0,31-03-2026,Anita Rao,No,Cash,Delivered
+OD-2075,  Rahul Mehta,North ,Filing Cabinet,Furniture,5,3200,10,2026/03/22,Fatima Sheikh,Yes,Cash,Delivered
+OD-2076,Aditya Rao,WEST,Filing Cabinet,Furniture,4,3200,0,04-02-2026,Kiran Patel,Yes,Card,Cancelled
+OD-2077,arjun reddy,south,Ergonomic Footrest,Office Supplies,2,950,5,19-01-2026,Kiran Patel,No,UPI,Delivered
+OD-2078,ADITYA RAO,east,Wireless Mouse,Electronics,7,650,0,2026/01/19,Kiran Patel,No,Card,Pending
+OD-2079,Ritika Chawla,west,Printer,Electronics,4,7300,0,03-02-2026,Anita Rao,No,Credit,Cancelled
+OD-2080,Anjali Bose,West ,Conference Table,Furniture,3,18400,0,04-03-2026,Anita Rao,Yes,Card,Delivered
+OD-2081,Suresh Kumar  ,SOUTH,Standing Desk,Furniture,8,9500,0,22-02-2026,Fatima Sheikh,Yes,Credit,Delivered
+OD-2082,  Karan Malhotra,East,Office Chair,Furniture,2,4200,10,2026/01/14,Kiran Patel,No,Card,Returned
+OD-2083,Sanjay Gupta,south,Printer,Electronics,4,7200,5,19-01-2026,Kiran Patel,No,UPI,Returned
+OD-2084,kavita joshi,WEST,Wireless Mouse,Electronics,5,Rs.750,0,05-02-2026,Kiran Patel,No,Credit,Delivered
+OD-2085,KARAN MALHOTRA,east,Bookshelf,Furniture,6,5400,0,02-01-2026,Sameer Joshi,Yes,UPI,Delivered
+OD-2086,Divya Menon,south,Standing Desk,Furniture,7,9700,0,12-01-2026,Ronit Sen,No,Credit,Cancelled
+OD-2087,Rohan Kapoor  ,West,Whiteboard,Office Supplies,8,1200,10,31-03-2026,Fatima Sheikh,Yes,Cash,Delivered
+OD-2088,Divya Menon  ,WEST,Printer,Electronics,2,Rs.7100,10,06-01-2026,Deepak Nair,Yes,Credit,Delivered
+OD-2089,MANISH VERMA,South ,Printer,Electronics,6,7400,0,2026/01/27,Deepak Nair,No,Cash,Returned
+OD-2090,Rohan Kapoor,West ,Monitor Stand,Electronics,4,1450,0,08/02/2026,Kiran Patel,Yes,Credit,Cancelled
+OD-2091,RAHUL MEHTA,North ,Mechanical Keyboard,Electronics,1,2300,0,19-01-2026,Kiran Patel,Yes,Cash,Cancelled
+OD-2092,Priya Nair  ,South,Desk Lamp,Electronics,1,850,0,03-02-2026,Sameer Joshi,No,UPI,Delivered
+OD-2093,Priya Nair,North ,Wireless Mouse,Electronics,,750,10,26-03-2026,Fatima Sheikh,No,Cash,Delivered
+OD-2094,Rahul Mehta,South,Desk Lamp,Electronics,2,Rs.950,0,2026/03/14,Kiran Patel,Yes,UPI,Returned
+OD-2095,Meera Pillai,South,Mechanical Keyboard,Electronics,5,Rs.2000,5,02-01-2026,Kiran Patel,Yes,UPI,Delivered
+OD-2096,Suresh Kumar,West,Mechanical Keyboard,Electronics,3,2100,5,21-01-2026,Fatima Sheikh,No,Credit,Delivered
+OD-2097,Ritika Chawla,EAST,Bookshelf,Furniture,6,5300,0,18-03-2026,Ronit Sen,No,Credit,Delivered
+OD-2098,  Rahul Mehta,South ,Filing Cabinet,Furniture,7,3100,0,19-01-2026,Ronit Sen,Yes,Credit,Delivered
+OD-2099,Tarun Bhatia,West ,Standing Desk,Furniture,5,9600,5,02-02-2026,Anita Rao,No,Cash,Delivered
+OD-2100,Rohan Kapoor,South ,Conference Table,Furniture,6,18500,0,12 Jan 2026,Kiran Patel,No,UPI,Delivered
+OD-2101,  Simran Kaur,South,Desk Lamp,Electronics,6,850,0,04-01-2026,Ronit Sen,Yes,Cash,Delivered
+OD-2102,tarun bhatia,west,Desk Lamp,Electronics,8,850,0,05-01-2026,Sameer Joshi,No,Cash,Delivered
+OD-2102,tarun bhatia,west,Desk Lamp,Electronics,8,850,0,05-01-2026,Sameer Joshi,No,Cash,Delivered
+OD-2103,Sanjay Gupta, East,Printer,Electronics,7,7100,0,2026/03/14,Anita Rao,No,Credit,Returned
+OD-2104,Rohan Kapoor,south,Office Chair,Furniture,,4400,0,24-03-2026,Fatima Sheikh,Yes,Card,Delivered
+OD-2105,Ayesha Khan  , East,Monitor Stand,Electronics,5,1550,5,31-01-2026,Kiran Patel,Yes,Card,Returned
+OD-2105,Ayesha Khan  , East,Monitor Stand,Electronics,5,1550,5,31-01-2026,Kiran Patel,Yes,Card,Returned
+OD-2106,Divya Menon,South,Whiteboard,Office Supplies,8,1200,0,22/03/2026,Deepak Nair,No,Credit,Delivered
+OD-2107,Aditya Rao,South,Whiteboard,Office Supplies,8,1200,0,2026/01/04,Deepak Nair,No,UPI,Delivered
+OD-2108,FARHAN ALI,West,Printer,Electronics,4,7100,0,26-01-2026,Fatima Sheikh,No,Card,Delivered
+OD-2109,SNEHA IYER,South,Printer,Electronics,1,"7,400.00",0,01-01-2026,Ronit Sen,No,UPI,Delivered
+OD-2110,Neha Sharma,east,Standing Desk,Furniture,3,9400,0,05-03-2026,Sameer Joshi,Yes,Card,Delivered
+OD-2110,Neha Sharma,east,Standing Desk,Furniture,3,9400,0,05-03-2026,Sameer Joshi,Yes,Card,Delivered
+OD-2111,  Divya Menon,West,Printer,Electronics,8,"7,300.00",0,2026/03/27,Sameer Joshi,No,Card,Cancelled
+OD-2112,Aditya Rao,NORTH,Desk Lamp,Electronics,2,850,0,18-02-2026,Anita Rao,No,Credit,Delivered
+OD-2113,sanjay gupta,South,Whiteboard,Office Supplies,3,Rs.1000,10,31-03-2026,Deepak Nair,Yes,Credit,Delivered
+OD-2114,priya nair,East,Mechanical Keyboard,Electronics,8,"2,000.00",0,21-02-2026,Ronit Sen,Yes,Card,Cancelled
+OD-2115,Karan Malhotra,South,Bookshelf,Furniture,1,5400,10,31-01-2026,Kiran Patel,No,UPI,Returned
+OD-2116,divya menon,east,Wireless Mouse,Electronics,1,550,0,26-01-2026,Anita Rao,Yes,Credit,Delivered
+OD-2117,Ritika Chawla,North,Printer,Electronics,5,7100,0,02/02/2026,Anita Rao,No,Cash,Delivered
+OD-2118,Farhan Ali,South,Desk Lamp,Electronics,8,950.00,0,17-01-2026,Fatima Sheikh,No,Card,Cancelled
+OD-2119,Arjun Reddy,west,Monitor Stand,Electronics,8,1550,0,09/02/2026,Deepak Nair,Yes,Credit,Delivered
+OD-2120,Manish Verma,south,Filing Cabinet,Furniture,4,3200,10,19-03-2026,Fatima Sheikh,Yes,Credit,Returned
+OD-2121,Imran Sheikh,  North,Whiteboard,Office Supplies,7,1100,5,05-02-2026,Ronit Sen,Yes,UPI,Returned
+OD-2122,Rahul Mehta  ,South ,Conference Table,Furniture,2,"18,700.00",5,05-02-2026,Ronit Sen,Yes,Credit,Cancelled
+OD-2123,Meera Pillai,EAST,Printer,Electronics,-2,7300,5,8 Feb 2026,Deepak Nair,Yes,Credit,Delivered
+OD-2124,Anjali Bose,EAST,Monitor Stand,Electronics,4,Rs.1350,10,02-02-2026,Fatima Sheikh,No,UPI,Delivered
+OD-2125,Priya Nair,West ,Monitor Stand,Electronics,8,1650,0,22-02-2026,Fatima Sheikh,Yes,Credit,Delivered
+OD-2126,  Manish Verma,East,Desk Lamp,Electronics,5,850,10,07-03-2026,Fatima Sheikh,Yes,UPI,Returned
+OD-2127,Ritika Chawla,South ,Desk Lamp,Electronics,6,750,0,02-01-2026,Deepak Nair,Yes,Credit,Returned
+OD-2127,RITIKA CHAWLA,South ,Desk Lamp,Electronics,6,750,0,02-01-2026,Deepak Nair,Yes,Credit,Returned
+OD-2128,suresh kumar,South ,Printer,Electronics,3,"7,100.00",0,08-03-2026,Anita Rao,Yes,Cash,Delivered
+OD-2129,Priya Nair,West ,Printer,Electronics,6,7200,0,04-02-2026,Ronit Sen,Yes,Card,Delivered
+OD-2129,priya nair,West ,Printer,Electronics,6,7200,0,04-02-2026,Ronit Sen,Yes,Card,Delivered
+OD-2130,anjali bose,West,Standing Desk,Furniture,1,9500,5,28-02-2026,Ronit Sen,No,Cash,Delivered
+OD-2131,Naveen Pillai,South ,Standing Desk,Furniture,2,Rs.9500,0,07-02-2026,Deepak Nair,Yes,Credit,Delivered
+OD-2132,Divya Menon,North ,Wireless Mouse,Electronics,4,Rs.750,0,,Sameer Joshi,Yes,Cash,Delivered
+OD-2133,kavita joshi,South ,Monitor Stand,Electronics,4,1650,0,02-03-2026,Sameer Joshi,No,UPI,Delivered
+OD-2134,farhan ali,east,Desk Lamp,Electronics,2,Rs.950,0,14 Mar 2026,Anita Rao,No,Card,Returned
+OD-2135,Divya Menon,North,Filing Cabinet,Furniture,4,3200,0,2026/02/21,Fatima Sheikh,No,UPI,Delivered
+OD-2135,Divya Menon,North,Filing Cabinet,Furniture,4,3200,0,2026/02/21,Fatima Sheikh,No,UPI,Delivered
+OD-2136,Naveen Pillai, East,Standing Desk,Furniture,7,9500,0,04-02-2026,Kiran Patel,Yes,Credit,Delivered
+OD-2137,Priya Nair,east,Printer,Electronics,3,7300,0,02-02-2026,Kiran Patel,No,Cash,Returned
+OD-2138,Priya Nair,  North,Printer,Electronics,-1,7200,10,12-01-2026,Kiran Patel,No,Card,Delivered
+OD-2139,Naveen Pillai,West ,Ergonomic Footrest,Office Supplies,8,950,0,07-03-2026,Sameer Joshi,No,Cash,Cancelled
+OD-2140,ritika chawla,south,Filing Cabinet,Furniture,4,3200,5,26-01-2026,Sameer Joshi,Yes,Credit,Delivered
+OD-2140,Ritika Chawla,south,Filing Cabinet,Furniture,4,3200,5,26-01-2026,Sameer Joshi,Yes,Credit,Delivered
+OD-2141,Vikram Singh,SOUTH,Whiteboard,Office Supplies,4,1300,5,22-01-2026,Sameer Joshi,No,Card,Delivered
+OD-2141,Vikram Singh,SOUTH,Whiteboard,Office Supplies,4,1300,5,22-01-2026,Sameer Joshi,No,Card,Delivered
+OD-2142,sneha iyer,North,Ergonomic Footrest,Office Supplies,5,950,0,14-03-2026,Sameer Joshi,Yes,Cash,Delivered
+OD-2143,suresh kumar,NORTH,Printer,Electronics,8,7400,10,15-02-2026,Kiran Patel,No,UPI,Cancelled
+OD-2144,vikram singh,North,Whiteboard,Office Supplies,3,1100,0,11-02-2026,Kiran Patel,No,Card,Delivered
+OD-2145,Ayesha Khan,east,Printer,Electronics,7,7300,0,21-01-2026,Ronit Sen,Yes,Card,Delivered
+OD-2146,Aditya Rao  ,West,Standing Desk,Furniture,-2,9700,0,06/02/2026,Anita Rao,No,Cash,Delivered
+OD-2146,Aditya Rao  ,West,Standing Desk,Furniture,-2,9700,0,06/02/2026,Anita Rao,No,Cash,Delivered
+OD-2147,Rahul Mehta  ,south,Bookshelf,Furniture,6,5600,5,28-02-2026,Ronit Sen,Yes,Cash,Returned
+OD-2148,Pooja Desai,EAST,Mechanical Keyboard,Electronics,3,2000,0,29-01-2026,Fatima Sheikh,Yes,UPI,Delivered
+OD-2149,ayesha khan,South ,Standing Desk,Furniture,2,9400,10,2026/03/27,Fatima Sheikh,Yes,Credit,Delivered
+OD-2150,ADITYA RAO,North ,Conference Table,Furniture,2,"₹ 18,700",10,29-03-2026,Sameer Joshi,Yes,Credit,Returned
+OD-2151,DIVYA MENON,North ,Ergonomic Footrest,Office Supplies,4,950,0,12-01-2026,Sameer Joshi,Yes,Card,Delivered
+OD-2152,Divya Menon,NORTH,Conference Table,Furniture,,18700,0,15-02-2026,Ronit Sen,Yes,Card,Delivered
+OD-2153,Rahul Mehta,  North,Desk Lamp,Electronics,5,850,10,27-03-2026,Sameer Joshi,No,UPI,Delivered
+OD-2153,Rahul Mehta,  North,Desk Lamp,Electronics,5,850,10,27-03-2026,Sameer Joshi,No,UPI,Delivered
+OD-2154,Simran Kaur,east,Office Chair,Furniture,2,4400,5,02-03-2026,Kiran Patel,No,Card,Returned
+OD-2155,Sneha Iyer,EAST,Bookshelf,Furniture,1,5500,0,01-03-2026,Deepak Nair,No,UPI,Delivered
+OD-2156,ANJALI BOSE,South ,Whiteboard,Office Supplies,3,1300,0,15-02-2026,Ronit Sen,Yes,Cash,Returned
+OD-2157,Kavita Joshi,NORTH,Whiteboard,Office Supplies,2,1100,0,2026/03/23,Ronit Sen,No,Cash,Cancelled
+OD-2158,Kavita Joshi,WEST,Whiteboard,Office Supplies,3,1200,10,20-02-2026,Deepak Nair,Yes,Cash,Delivered
+OD-2159,Suresh Kumar,East,Bookshelf,Furniture,3,5500,0,30-03-2026,Anita Rao,No,Card,Delivered
+OD-2160,rahul mehta,SOUTH,Wireless Mouse,Electronics,8,850,10,2026/01/26,Anita Rao,Yes,Cash,Delivered
+OD-2161,Rohan Kapoor,,Office Chair,Furniture,6,4200,0,04-01-2026,Fatima Sheikh,No,Cash,Returned
+OD-2161,Rohan Kapoor,,Office Chair,Furniture,6,4200,0,04-01-2026,Fatima Sheikh,No,Cash,Returned
+OD-2162,karan malhotra, East,Mechanical Keyboard,Electronics,-1,Rs.2100,0,20-03-2026,Deepak Nair,Yes,Cash,Delivered
+OD-2163,  Pooja Desai,NORTH,Printer,Electronics,3,7200,0,2026/03/21,Kiran Patel,No,UPI,Cancelled
+OD-2164,Farhan Ali,WEST,Whiteboard,Office Supplies,-1,1100,10,2026/03/22,Anita Rao,Yes,Card,Delivered
+OD-2165,Divya Menon,SOUTH,Whiteboard,Office Supplies,3,1100,5,5 Mar 2026,Deepak Nair,No,Card,Delivered
+OD-2165,Divya Menon,SOUTH,Whiteboard,Office Supplies,3,1100,5,5 Mar 2026,Deepak Nair,No,Card,Delivered
+OD-2166,Karan Malhotra,North,Monitor Stand,Electronics,1,1550,0,22-03-2026,Anita Rao,No,UPI,Cancelled
+OD-2167,ritika chawla,SOUTH,Mechanical Keyboard,Electronics,4,2200,0,04-02-2026,Sameer Joshi,No,Cash,Delivered
+OD-2167,ritika chawla,SOUTH,Mechanical Keyboard,Electronics,4,2200,0,04-02-2026,Sameer Joshi,No,Cash,Delivered
+OD-2168,Anjali Bose,south,Mechanical Keyboard,Electronics,4,2100,5,16/02/2026,Fatima Sheikh,Yes,Card,Pending
+OD-2168,ANJALI BOSE,south,Mechanical Keyboard,Electronics,4,2100,5,16/02/2026,Fatima Sheikh,Yes,Card,Pending
+OD-2169,Vikram Singh,north,Monitor Stand,Electronics,2,"₹ 1,550",0,13-02-2026,Kiran Patel,No,Cash,Delivered
+OD-2170,anjali bose,North,Wireless Mouse,Electronics,,₹ 650,10,15/01/2026,Fatima Sheikh,Yes,Credit,Delivered
+OD-2171,Simran Kaur,South,Desk Lamp,Electronics,6,850,0,04-02-2026,Anita Rao,No,Cash,Delivered
+OD-2171,Simran Kaur,South,Desk Lamp,Electronics,6,850,0,04-02-2026,Anita Rao,No,Cash,Delivered
+OD-2172,NAVEEN PILLAI,,Mechanical Keyboard,Electronics,5,2100,5,10-02-2026,Fatima Sheikh,Yes,Credit,Pending
+OD-2173,Rohan Kapoor,north,Ergonomic Footrest,Office Supplies,7,₹ 850,5,21-03-2026,Kiran Patel,Yes,UPI,Cancelled
+OD-2174,Rahul Mehta  , East,Printer,Electronics,8,7300,0,22-03-2026,Fatima Sheikh,No,Credit,Delivered
+OD-2175,Meera Pillai,East,Bookshelf,Furniture,5,5400,10,03-03-2026,Sameer Joshi,Yes,UPI,Delivered
+OD-2176,Vikram Singh,east,Mechanical Keyboard,Electronics,3,2000,5,16-02-2026,Fatima Sheikh,Yes,Card,Cancelled
+OD-2177,sanjay gupta,EAST,Filing Cabinet,Furniture,8,3300,0,23-01-2026,Sameer Joshi,Yes,UPI,Delivered
+OD-2178,ROHAN KAPOOR,EAST,Standing Desk,Furniture,1,9500,0,2026/03/11,Deepak Nair,No,UPI,Returned
+OD-2179,Pooja Desai,West,Filing Cabinet,Furniture,6,3300,0,07-02-2026,Fatima Sheikh,No,Card,Delivered
+OD-2180,  Arjun Reddy,SOUTH,Desk Lamp,Electronics,2,1050,10,24-03-2026,Anita Rao,Yes,Credit,Pending
+OD-2181,Sanjay Gupta  ,West ,Mechanical Keyboard,Electronics,3,2100,10,21-02-2026,Kiran Patel,No,UPI,Returned
+OD-2182,Suresh Kumar,north,Desk Lamp,Electronics,8,1050,0,29 Mar 2026,Deepak Nair,No,Credit,Returned
+OD-2183,Arjun Reddy,north,Office Chair,Furniture,3,"₹ 4,200",10,2026/02/19,Deepak Nair,No,Credit,Cancelled
+OD-2184,  Rohan Kapoor,West ,Whiteboard,Office Supplies,1,1200,5,16 Mar 2026,Deepak Nair,Yes,Cash,Cancelled
+OD-2185,Kavita Joshi,WEST,Filing Cabinet,Furniture,4,3400,0,21-02-2026,Fatima Sheikh,Yes,Cash,Delivered
+OD-2186,Sanjay Gupta,north,Mechanical Keyboard,Electronics,-2,2100,0,28-03-2026,Kiran Patel,No,Card,Delivered
+OD-2187,Sanjay Gupta,North ,Wireless Mouse,Electronics,4,750,0,20-01-2026,Kiran Patel,Yes,Card,Returned
+OD-2188,  Rohan Kapoor,east,Standing Desk,Furniture,3,9500,0,05-01-2026,Sameer Joshi,No,Cash,Delivered
+OD-2189,AYESHA KHAN,WEST,Monitor Stand,Electronics,2,1650,0,07-02-2026,Anita Rao,No,Card,Delivered
+OD-2190,Rohan Kapoor,north,Standing Desk,Furniture,-2,9400,0,20-01-2026,Anita Rao,Yes,UPI,Delivered
+OD-2191,Sneha Iyer,east,Ergonomic Footrest,Office Supplies,8,950,5,01/03/2026,Anita Rao,Yes,Card,Delivered

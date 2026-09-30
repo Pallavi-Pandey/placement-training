@@ -7,7 +7,7 @@
 **Tools (this copy):** LibreOffice Calc 7.x
 **Tools (students):** Microsoft Excel 2016+ / 365
 
-> This is your working/trainer copy, written for **LibreOffice Calc** — the app you actually prep and test in. Students are on Microsoft Excel, so hand them `day_1_student_handout.md` / `.pdf`, which uses genuine Excel Tables and structured references (`[@ColumnName]`). Both documents solve the same exercise with the tool each side actually has open — don't mix the mechanics between them.
+> This is your working/trainer copy, written for **LibreOffice Calc** — the app you actually prep and test in. Students are on Microsoft Excel, so hand them `part_1_student_handout.md` / `.pdf`, which uses genuine Excel Tables and structured references (`[@ColumnName]`). Both documents solve the same exercise with the tool each side actually has open — don't mix the mechanics between them.
 
 A hands-on session that takes students from the ribbon and formula bar to a cleaned, calculated, sorted business dataset — the working vocabulary every later Excel module builds on.
 
@@ -329,4 +329,4 @@ Use these as the guided capstone above, as extra reps for faster finishers, or a
 
 ---
 
-**Trainer prep:** Share `retail_sales_q1_raw.csv` and `region_targets.csv` with each student (or pre-load both as tabs in a starter workbook); a projector with the Ribbon visible at readable zoom; keep a cleaned reference copy on hand for before/after comparison at the open, and hold back the Data Profile table until after the capstone so it lands as an answer key, not a shortcut. **This copy is LibreOffice Calc throughout** — if you're demoing live on classroom machines running Microsoft Excel instead, switch to the mechanics in `day_1_student_handout.md` (real `Ctrl+T` Tables, `[@ColumnName]` structured references, `F4`, Excel's native Remove Duplicates) so what's on the projector matches what students see on their own screens.
+**Trainer prep:** Share `retail_sales_q1_raw.csv` and `region_targets.csv` with each student (or pre-load both as tabs in a starter workbook); a projector with the Ribbon visible at readable zoom; keep a cleaned reference copy on hand for before/after comparison at the open, and hold back the Data Profile table until after the capstone so it lands as an answer key, not a shortcut. **This copy is LibreOffice Calc throughout** — if you're demoing live on classroom machines running Microsoft Excel instead, switch to the mechanics in `part_1_student_handout.md` (real `Ctrl+T` Tables, `[@ColumnName]` structured references, `F4`, Excel's native Remove Duplicates) so what's on the projector matches what students see on their own screens.

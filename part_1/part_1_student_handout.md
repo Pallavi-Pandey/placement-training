@@ -218,4 +218,27 @@ This export has the kind of problems a real business file actually has — incon
 2. Write one formula using `IF` and `AND` that marks a customer `"High Value"` when Order Value exceeds 50,000 *and* they are a repeat customer.
 3. Write a nested `IF` that returns `"Gold"` for Sales above 100,000, `"Silver"` above 50,000, and `"Bronze"` otherwise.
 
+## 11. Exit Ticket — Solutions
+
+**1. Absolute and mixed references for `B2`**
+
+- Absolute (locks both column and row): `$B$2`
+- Mixed, column locked only: `$B2` — the `$` sits before the part that should never change when the formula is copied. `$B2` keeps column B fixed while the row number still adjusts if copied down or up; it would *not* stay fixed if copied sideways, because the row isn't locked.
+
+**2. High Value flag**
+
+```
+=IF(AND(D2>50000,E2="Yes"),"High Value","Standard")
+```
+
+Assuming Order Value sits in column D and a Repeat Customer Yes/No flag sits in column E on that row. Both conditions inside `AND` must be true — a 60,000 order from a first-time customer still returns `"Standard"`.
+
+**3. Gold / Silver / Bronze nested IF**
+
+```
+=IF(C2>100000,"Gold",IF(C2>50000,"Silver","Bronze"))
+```
+
+Check the highest threshold first. A value of exactly 100,000 does **not** qualify as Gold here (the test is strictly `>`) — worth flagging if your own rule should be `>=` instead.
+
 **Looking ahead:** Today's foundation — references, logic, clean data — is what lookup functions, pivot tables and dashboards build on top of next.

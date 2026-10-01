@@ -517,4 +517,153 @@ h) Double-click the highest value cell — explore the drill-down detail sheet.
 4. Write a formula to extract the email username (before `@`) from cell L2.
 5. A VLOOKUP returns `#N/A` for a new employee. Wrap it in an error handler. Would you use IFERROR or IFNA — and why?
 
+## 12. Exercise Solutions
+
+Worked against the actual `employee_master.csv` (40 employees) and `monthly_transactions.csv` (180 rows) saved alongside this handout — column letters below assume the raw files with headers in row 1, data starting row 2. `employee_master.csv` columns: `A Emp ID · B First Name · C Last Name · D Department · E Designation · F Hire Date · G Base Salary · H Bonus % · I Region · J Manager · K Performance Rating · L Email · M Phone · N Status`. `monthly_transactions.csv` columns: `A Txn ID · B Emp ID · C Transaction Date · D Category · E Amount · F Payment Mode · G Approved By · H Remarks · I Project Code`.
+
+### Exercise 1: Lookup Drills
+
+| New Column | Formula |
+| --- | --- |
+| Employee Name | `=XLOOKUP(B2,employee_master!$A:$A,employee_master!$B:$B)&" "&XLOOKUP(B2,employee_master!$A:$A,employee_master!$C:$C)` |
+| Department | `=XLOOKUP(B2,employee_master!$A:$A,employee_master!$D:$D)` |
+| Designation | `=INDEX(employee_master!$E:$E,MATCH(B2,employee_master!$A:$A,0))` |
+| Hire Date | `=XLOOKUP(B2,employee_master!$A:$A,employee_master!$F:$F)` |
+| Base Salary | `=VLOOKUP(B2,employee_master!$A:$N,7,FALSE)` |
+| Region | `=INDEX(employee_master!$I:$I,MATCH(B2,employee_master!$A:$A,0))` |
+| Manager | `=INDEX(employee_master!$J:$J,MATCH(B2,employee_master!$A:$A,0))` |
+| Performance Rating | `=XLOOKUP(B2,employee_master!$A:$A,employee_master!$K:$K)` |
+
+a) **Most transactions:** Neha Sharma (`E1003`) — 10 transactions, the most of any employee in the log.
+
+b) **Average amount for rating-5 employees:** ₹28,600, across 53 transactions by employees rated 5. Formula once the Performance Rating column is pulled in: `=AVERAGEIFS(monthly_transactions!E:E,monthly_transactions!K:K,5)` (K here being wherever you placed the looked-up rating).
+
+c) **Transactions by "On Leave"/"Resigned" employees:** none. The employee master has 2 "On Leave" and 1 "Resigned" employee, but cross-checking their Emp IDs against the transaction log turns up zero matching rows — the honest answer is "no," and the point of the question is confirming you actually checked rather than assumed a messy dataset must contain one.
+
+### Exercise 2: Reverse and Approximate Lookups
+
+a) **Manager → first Emp ID:** VLOOKUP can't do this — Emp ID (column A) sits to the *left* of Manager (column J), and VLOOKUP can only return columns to the right of its lookup column. Use INDEX-MATCH or XLOOKUP instead:
+
+```
+=INDEX(employee_master!$A:$A,MATCH("Sameer Joshi",employee_master!$J:$J,0))
+```
+
+For Manager `"Sameer Joshi"`, this returns `E1001` (Priya Nair) — the first row in the table where Manager equals that name.
+
+b) **Tax bracket lookup:**
+
+```
+=VLOOKUP(G2,TaxTable!$A:$B,2,TRUE)
+```
+
+(or `=XLOOKUP(G2,TaxTable!$A:$A,TaxTable!$B:$B,,-1)` for the XLOOKUP equivalent — `TRUE`/`match_mode -1` both mean "find the largest bracket value that doesn't exceed the salary.") Worked example: employee `E1006`, Base Salary ₹62,000 — falls in the ₹50,000 bracket (the next one up, ₹75,000, is too high), so the lookup returns a **10%** tax rate.
+
+### Exercise 3: SUMIFS / COUNTIFS / AVERAGEIFS Dashboard
+
+| # | Formula | Answer |
+| --- | --- | --- |
+| 1 | `=SUMIFS(E:E,D:D,"Travel")` | ₹6,27,200 |
+| 2 | `=SUMIFS(E:E,D:D,"Marketing",I:I,"P-403")` | ₹8,44,800 |
+| 3 | `=COUNTIFS(F:F,"Credit Card")` | 81 |
+| 4 | `=COUNTIFS(G:G,"Fatima Sheikh",C:C,">="&DATE(2026,1,1),C:C,"<="&DATE(2026,3,31))` | 12 |
+| 5 | `=AVERAGEIFS(E:E,D:D,"Hardware")` | ₹38,214.29 |
+| 6 | `=SUMIFS(E:E,J:J,"Finance",C:C,">="&DATE(2026,4,1),C:C,"<="&DATE(2026,6,30))` — needs the Department lookup column from Exercise 1 first, here assumed placed in column J | ₹3,38,600 |
+| 7 | `=COUNTIFS(F:F,"Petty Cash",E:E,"<3000")` | 15 |
+| 8 | `=SUMIFS(E:E,D:D,"Training",K:K,"North")` — needs the Region lookup column from Exercise 1, here assumed placed in column K | ₹1,49,500 |
+| 9 | `=COUNTIFS(E:E,">30000")` | 37 |
+| 10 | `=AVERAGEIFS(E:E,D:D,"Software License",F:F,"Bank Transfer")` | ₹42,916.67 |
+
+**Watch #7:** "Petty Cash" is a value in the **Payment Mode** column, not the Category column — there's no "Petty Cash" category in this dataset at all. Criteria on the wrong column silently return 0 rather than erroring, so this one is a built-in trap for checking your criteria ranges match the actual field you mean.
+
+### Exercise 4: Text Functions
+
+Each sub-question already shows its formula and expected output inline above — restated as a group for reference:
+
+| | Formula | Result |
+| --- | --- | --- |
+| a | `=C2&", "&B2` | `"Nair, Priya"` |
+| b | `=LEFT(L2,FIND("@",L2)-1)` | `"priya.nair"` |
+| c | `=MID(L2,FIND("@",L2)+1,LEN(L2))` | `"corpsolutions.com"` |
+| d | `="XXXXXX"&RIGHT(M2,4)` | `"XXXXXX3210"` |
+| e | `=SUBSTITUTE(E2,"Sr.","Senior")` | turns `"Sr. Analyst"` into `"Senior Analyst"` |
+| f | `=MID(I2,3,3)` | `"201"` from `"P-201"` |
+
+### Exercise 5: Date Functions
+
+Also answered inline above; grounded against a real row — employee `E1001` (Priya Nair), hired `12-01-2022`:
+
+| | Formula | Result (as of today) |
+| --- | --- | --- |
+| a | `=DATEDIF(F2,TODAY(),"Y")` | `4` years of service |
+| b | `=IF(DATEDIF(F2,TODAY(),"Y")>=5,"5+ years",IF(DATEDIF(F2,TODAY(),"Y")>=2,"2–5 years","< 2 years"))` | `"2–5 years"` |
+| c | `="Q"&ROUNDUP(MONTH(F2)/3,0)&" "&YEAR(F2)` | `"Q1 2022"` |
+| e | `=EOMONTH(F2,6)` | `31-07-2022` |
+| g | `=TEXT(F2,"DD-MMM-YYYY")` | `"12-Jan-2022"` |
+
+### Exercise 6: Error Handling
+
+a) `=IFNA(VLOOKUP("E9999",employee_master!$A:$N,4,FALSE),"ID Not Found")` → `E9999` doesn't exist in the master, so this returns `"ID Not Found"` instead of a raw `#N/A`.
+
+b) `=IFERROR(SUMIFS(E:E,D:D,A2)/COUNTIFS(D:D,A2),0)` — any category with zero matching transactions would otherwise divide by zero; wrapping it returns `0` instead of `#DIV/0!`.
+
+c) `=IF(ISNA(VLOOKUP(B2,employee_master!$A:$N,1,FALSE)),"Invalid ID","OK")` — flags any Emp ID in the transaction log that doesn't exist in the employee master.
+
+### Exercise 7: PivotTable & PivotChart
+
+a) **Top category by spend:** Marketing (₹8,44,800) — narrowly ahead of Hardware (₹8,02,500). Full ranking: Marketing → Hardware → Travel (₹6,27,200) → Training (₹6,27,000) → Software License (₹6,24,500) → Office Supplies (₹1,33,400).
+
+b) **Dominant Department × Category pair:** Marketing dept × Marketing category (₹8,44,800) overall. Within IT, two categories stand out: IT × Hardware (₹8,02,500) and IT × Software License (₹4,14,500) — IT alone accounts for well over half of total spend once both are combined.
+
+c) **Monthly trend:** spend climbs from ₹4.86L in January to a peak of ₹6.79L in April, dips slightly in May (₹5.91L), then recovers in June (₹6.48L) — a gentle rise through Q1 into Q2 rather than a sharp trend in either direction.
+
+d) **By Approved By:** Kiran Patel approves the highest *total value* (₹14.25L) despite approving fewer transactions (39) than Sameer Joshi, who approves the *most transactions* (50) but a smaller total value (₹6.05L). Worth drawing out explicitly: highest count and highest value don't have to be the same person.
+
+e) **Project P-102:** Hardware dominates (21 of 39 rows), followed by Software License (13) and Training (5) — consistent with P-102 reading as an IT infrastructure project.
+
+f)–g) No single numeric answer — these are chart-building steps. The trend in the resulting Line PivotChart matches part (c): a gradual climb from January into April, then a slight dip and recovery.
+
+h) **Drill-down:** the single highest transaction in the dataset is ₹85,000 — `T5066`, Hardware, approved by Kiran Patel, Project `P-102`, dated 18-03-2026. This is the row a drill-down on the highest value cell would surface first.
+
+## 13. Exit Ticket — Solutions
+
+**1. VLOOKUP for `E1015`'s Department, and what changes for Base Salary**
+
+```
+=VLOOKUP("E1015",employee_master!$A:$N,4,FALSE)
+```
+
+Returns `"Finance"`. For Base Salary, only the `col_index_num` changes — from `4` to `7` (Base Salary is the 7th column in the master table):
+
+```
+=VLOOKUP("E1015",employee_master!$A:$N,7,FALSE)
+```
+
+Returns `33000`. (`E1015` is Ritika Chawla, Finance, Base Salary ₹33,000.)
+
+**2. INDEX-MATCH rewrite**
+
+```
+=INDEX(employee_master!$D:$D,MATCH("E1015",employee_master!$A:$A,0))
+```
+
+More robust because the column to return is specified directly (`$D:$D` for Department) rather than counted as "the 4th column." If someone inserts a new column anywhere in the table, Excel automatically updates the `$D:$D` reference to still point at Department — but a hardcoded `4` in VLOOKUP keeps pointing at whatever now happens to sit in position 4, silently returning the wrong field with no error at all.
+
+**3. SUMIFS for Software License spend via Bank Transfer**
+
+```
+=SUMIFS(E:E,D:D,"Software License",F:F,"Bank Transfer")
+```
+
+→ ₹5,15,000.
+
+**4. Extract email username**
+
+```
+=LEFT(L2,FIND("@",L2)-1)
+```
+
+**5. IFERROR or IFNA?**
+
+Use `IFNA`. The anticipated failure here is specifically `#N/A` — "this ID doesn't exist." `IFERROR` would also silently swallow unrelated errors, like a `#REF!` from a deleted column or a `#VALUE!` from a typo elsewhere in the formula — exactly the kind of error you want to *see* and fix, not hide behind a friendly fallback value.
+
 **Looking ahead:** Today's lookups, aggregation, and PivotTables are the analytical core — next session covers data validation, conditional formatting, what-if analysis, and dashboard design.
